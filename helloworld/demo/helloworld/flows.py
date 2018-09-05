@@ -1,9 +1,8 @@
-from viewflow import flow, frontend
+from viewflow import flow
 from viewflow.base import this, Flow
 from viewflow.flow.views import CreateProcessView, UpdateProcessView
 
 from .models import HelloWorldProcess
-
 
 @frontend.register
 class HelloWorldFlow(Flow):
